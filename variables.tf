@@ -16,5 +16,10 @@ variable "repositoriesList" {
       repoDescription = "TF. Deploy and config repositories",
       repoVisibility  = "public",
     },
+    {
+      repoName        = "docker-terraform",
+      repoDescription = "TF. Build docker image",
+      repoVisibility  = "public",
+    },
   ]
 }
