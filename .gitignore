@@ -1,5 +1,7 @@
+.gitignore
+
 .terraform/
 .terraform.lock.hcl
 
-/backend.tf
-/terraform.tfvars
+backend.tf
+terraform.tfvars
