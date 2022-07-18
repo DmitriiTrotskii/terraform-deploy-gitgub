@@ -21,5 +21,15 @@ variable "repositoriesList" {
       repoDescription = "TF. Build docker image",
       repoVisibility  = "public",
     },
+    {
+      repoName        = "traefik",
+      repoDescription = "TF. Traefik compose. Default config",
+      repoVisibility  = "public",
+    },
+    {
+      repoName        = "nextCloud",
+      repoDescription = "TF. Nextcloud and onlyoffice deploy",
+      repoVisibility  = "public",
+    }
   ]
 }
